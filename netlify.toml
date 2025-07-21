@@ -1,8 +1,8 @@
 [build]
   command = "pnpm install && pnpm run build"
   publish = "dist"
-  base = "elite-ac-website-source"
 
 [build.environment]
   NODE_VERSION = "18"
-  NPM_FLAGS = "--version"
+
+
